@@ -1,0 +1,85 @@
+#review {
+  /* background-color: aqua; */
+}
+#review .swiper {
+  width: 100%;
+  border: none;
+}
+#review .swiper-slide {
+  border: none !important;
+  background-color: none !important;
+  height: 100% !important;
+}
+#review .mySwiperwiper {
+  background-color: black;
+}
+#review .box {
+  flex-direction: column;
+  margin-bottom: 2.66rem;
+  border: 3px solid black;
+  border-radius: 2rem;
+  overflow: hidden;
+  max-width: 250px;
+}
+#review .swiper-button-prev::after {
+  color: rgb(5, 19, 102) !important;
+  left: 0 !important;
+  margin-right: 100% !important;
+}
+#review .swiper-button-next::after {
+  color: rgb(5, 19, 102) !important;
+  right: 0 !important;
+  margin-left: 100% !important;
+}
+@media (min-width: 991px) {
+  #review {
+    padding: 1rem 21% !important;
+  }
+}
+@media (min-width: 768px), (max-width: 768px) {
+  #review {
+    padding: 1rem 5%;
+  }
+  #review .box{
+    max-width: 250px;
+  }
+}
+@media (max-width: 464px) {
+  #review .swiper {
+    width: 100%;
+  }
+  #review {
+    padding: 1rem 5%;
+  }
+}
+#review .box .image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  height: 10rem !important;
+}
+#review .box .image img {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+}
+#review .swiper-pagination {
+  display: block;
+  bottom: 0% !important;
+  margin-top: 15pxs;
+}
+#review .box h2 {
+  background-color: red;
+  padding: 2rem;
+}
+#review .box h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 1rem 2rem;
+  background-color: rgb(150, 130, 130);
+  height: 150px;
+  max-height: 150px;
+}

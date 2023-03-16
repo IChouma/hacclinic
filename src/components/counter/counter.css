@@ -1,0 +1,52 @@
+.image-icon {
+  padding: 0.5rem;
+  border: 0.2rem solid #ffffff00;
+}
+.image > div {
+  background-color: burlywood;
+  display: flex !important;
+  justify-content: center !important;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 1rem;
+}
+h1 {
+  font-size: 2.66rem;
+}
+/* ----------------------- */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  margin: 0;
+}
+article {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article:first-child {
+  background-color: #aaa;
+}
+article:nth-child(2) {
+  background-color: #bbb;
+}
+article:nth-child(3) {
+  background-color: #ccc;
+}
+article:last-of-type {
+  background-color: #eee;
+}
+.nums {
+  width: 400px;
+  display: flex;
+}
+.nums .num {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
